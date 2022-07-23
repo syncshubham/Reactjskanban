@@ -1,0 +1,139 @@
+  .board {
+  max-width: 100%;
+  min-width: 220px;
+  width: 220px;
+  margin-top:4.1rem;
+  max-height: 100%;
+  flex-basis: 290px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.board_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.board_header_title {
+  font-weight: bold;
+  font-size: 1rem;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.board_header_title span {
+  color: rgb(145, 145, 145);
+}
+
+.board_header_title_more {
+  cursor: pointer;
+  position: relative;
+}
+
+.board_dropdown {
+  box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.12);
+  padding: 20px;
+  width: 150px !important;
+  cursor: default;
+}
+.board_dropdown p {
+  border-bottom: 1px solid #f8f8f8;
+  cursor: pointer;
+}
+
+.board_cards {
+  opacity: 84%;
+  background-color: #f8f8f8;
+  width: 32.9vh;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-x: auto;
+  z-index: 1;
+}
+
+.board_add-card {
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  box-shadow: 1px 1px 0 1px rgba(0, 0, 0, 0.12);
+  width: 100%;
+  text-align: center;
+}
+.board_add-card_edit {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.moreHorizontal{
+  margin-left: 117px;
+  cursor: pointer;
+}
+
+/* additional css some are useless */
+
+.scroll-body {
+  padding: 1rem;
+}
+
+.stagerow {
+  margin-bottom: 14px;
+  /* margin-left: -6px; */
+  border-left: 1px solid black;
+  border-radius: 0px 17px 17px 0px;
+  overflow-x: initial;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0.6375) 100%);
+  backdrop-filter: blur(25px);
+  /* padding: 1rem; */
+  position: relative;
+  min-height: 112.8px;
+  border-left: none;
+  width: 18rem;
+}
+
+.innerStageRow{
+  margin-top: 17.6px;
+  padding: 10px;  
+  margin-left: -1px;
+    border-left: 2px solid gray !important;
+  
+}
+
+/* 
+.stagerow .stagecontent:first-child {
+  border-left: none;
+} */
+
+/* 
+.stagecontent  {
+  border-left: 2px solid #6A6A6A;
+  padding: 1rem;
+  position: relative;
+  width: 15.7rem;
+} */
+
+
+.innerStageRow>.point {
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  /* line-height: 27px; */
+  color: #000000;
+  padding-bottom: 0.5rem;
+}
+
+.innerStageRow>p {
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #6A6A6A;
+}
+

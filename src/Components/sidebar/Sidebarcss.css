@@ -1,0 +1,45 @@
+html {
+
+    box-sizing: border-box;
+    --bgColorMenu : #1d1d27;
+    --duration: .7s;    
+}
+
+html *,
+html *::before,
+html *::after {
+            box-sizing: inherit;
+        }
+        
+@media screen and (max-width: 50em) {
+    .menu{
+        font-size: .8em;
+    }
+}
+
+.sidetoplogo {
+    margin-left: -7px;
+    cursor: pointer;
+    height: 86.8px;
+    background: #ECECEC;
+    padding: 0.7rem 1.2rem;
+}
+
+.sidestanddiv {
+    /* position: fixed; */
+    /* background: bisque; */
+    background: #1E1E1E;
+    width: 5rem;
+    /* padding: 10px; */
+    float: left;
+    height: 100%;
+    overflow-x: hidden;
+    position: relative;
+    padding-right: 0px;
+    position: fixed;
+    z-index: 1;
+}
+
+.sidetoplogo>img {
+    width: 46px;
+}

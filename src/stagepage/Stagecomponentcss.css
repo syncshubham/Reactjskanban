@@ -1,0 +1,38 @@
+.bg-div{
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    background: url('../images/bg-stagecom.png');
+    background-position: center;
+    top: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    
+}
+
+.mainbody {
+    position: absolute;
+    top: 11%;
+    left: 4%;
+    /* padding: 1rem; */
+}
+
+.add-bottom-btn {
+    /* background: aliceblue; */
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0.5525) 100%);
+    backdrop-filter: blur(25px);
+    border-radius: 50%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.bottom-btn {
+    position: fixed;
+    bottom: 2%;
+    right: 3%;
+}

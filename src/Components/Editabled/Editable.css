@@ -1,0 +1,113 @@
+.editable {
+  width: 100%;
+}
+
+.editable_display {
+  padding: 6px 12px;
+  border-radius: 3px;
+  background-color: #eee;
+  color: #000;
+  cursor: pointer;
+  width: fit-content;
+  transition: 200ms;
+}
+
+.editable_display:hover {
+  background-color: #ddd;
+}
+
+.editable_edit {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.editable_edit input {
+  border: 2px solid #0079bf;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.editable_edit_footer {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.editable_edit_footer button {
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+  background-color: #0079bf;
+  color: #fff;
+  border: none;
+  transition: 100ms ease;
+  padding: 10px;
+}
+.editable_edit_footer button:hover {
+  background-color: #046daa;
+}
+
+.editable_edit_footer button:active {
+  transform: translateY(2px);
+}
+
+.editable_edit_footer .closeIcon {
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+}
+
+.add-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85px;
+  width: 32.9vh;
+  background: linear-gradient(180deg, rgb(255 255 255 / 87%) 0%, rgb(255 255 255 / 81%) 100%);
+  /* backdrop-filter: blur(25px); */
+  border-radius: 0 0 10px 10px;
+  border-top: 2px solid #999; 
+  padding: 15px;
+}
+
+
+.con-add-icon {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+span.add-h {
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 15px;
+color: #1E1E1E;
+padding-left: 1rem;
+}
+
+.add-bottom-btn {
+  /* background: aliceblue; */
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0.5525) 100%);
+  backdrop-filter: blur(25px);
+  border-radius: 50%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.bottom-btn {
+  position: fixed;
+  bottom: 2%;
+  right: 3%;
+}
+
+.add-new-card {
+  margin: 0;
+}
